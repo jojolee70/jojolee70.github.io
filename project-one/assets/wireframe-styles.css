@@ -45,6 +45,7 @@ footer {
 footer .source-section {
 	width: 208px;
 	height: 115px;
+	background-color: blue;
 }
 
 footer img {
