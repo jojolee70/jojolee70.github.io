@@ -5,7 +5,7 @@ body {padding: 0;
 }
 
 .container {
-	width: 615px;
+	width: 715px;
 	background-color: #ffffff;
 		margin-left: auto;
 		margin-right: auto;
@@ -13,7 +13,6 @@ body {padding: 0;
 
 .large-letter-group {
 	height: 800px;
-	
 		width:100%;
 	display:flex;
 	align-items: flex-end;
@@ -74,7 +73,7 @@ footer .author-heading{
 	margin-left: 7px;
 }
 footer .sources{
-	width: 740px;
+	width: 940px;
 	height:270px;
 	
 		background-color: #586CFF;
