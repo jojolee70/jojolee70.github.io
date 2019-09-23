@@ -23,7 +23,7 @@ body {padding: 0;
 
 .large-letter-group h1{
 	height: 400px;
-	background-color: #349338;
+	background-color:orange;
 		width:100%;
 	display:flex;
 	align-items: flex-end;
@@ -42,10 +42,11 @@ body {padding: 0;
 footer {
 	display: flex;
 }
-footer .source {
-	width: 208px;
-	height: 115px;
-	background-color: blue;
+footer .sources {
+	width: 700px;
+	height: 285px;
+font-weight: 300;
+font-style: normal;	
 }
 
 footer img {
