@@ -6,13 +6,13 @@ body {padding: 0;
 
 .container {
 	width: 615px;
-	background-color: #f00808;
+	background-color: #ffffff;
 		margin-left: auto;
 		margin-right: auto;
 }
 
 .large-letter-group {
-	height: 400px;
+	height: 800px;
 	background-color: #ffffff;
 		width:100%;
 	display:flex;
@@ -23,14 +23,37 @@ body {padding: 0;
 
 .large-letter-group h1{
 	height: 400px;
-	background-color: #349338;
+	background-color: orange;
 		width:100%;
 	display:flex;
 	align-items: flex-end;
 	justify-content: space-between;
 	padding: 0;
-	margin: 0:
+	margin: 0;
+		font-family: condor, sans-serif;
+font-weight: 500;
+font-style: normal;
 		
+}
+
+.section-sample {
+	width: 605px;
+	height: 78px;
+background-color: purple;	
+}
+
+.main-copy {
+	font-family: condor, sans-serif;
+	font-weight: 400; 
+	font-style: normal;
+	font-size: 18px;
+	line-height: 26px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+font-weight: 300;
+font-style: normal;
+	background-color: yellow;
+	
 }
 
 .large-letter-group button {
@@ -40,16 +63,27 @@ body {padding: 0;
 	margin-right: 10px;
 }
 footer {
-	display: flex;
+	display: flex;	
 }
-footer .source {
-	width: 208px;
-	height: 115px;
-	background-color: blue;
+footer .author-heading{
+	background-color: #7CFC00;
+	width: 270px;
+	height: 270px;
+	position: relative;
+	left: 0px;
+	margin-left: 7px;
+}
+footer .sources{
+	width: 740px;
+	height:270px;
+		background-color: #586CFF;
+	margin-left: 77px;
+	position: relative;
+	right:63px;
 }
 
 footer img {
 	height: 94px;
 	width: 94px;
-	background-color: #586CFF;
+	background-color: gray;
 }
