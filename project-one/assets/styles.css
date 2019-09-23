@@ -6,14 +6,13 @@ body {padding: 0;
 
 .container {
 	width: 615px;
-	background-color: #f00808;
+	
 		margin-left: auto;
 		margin-right: auto;
 }
 
 .large-letter-group {
-	height: 400px;
-	background-color: #ffffff;
+	height: 800px;
 		width:100%;
 	display:flex;
 	align-items: flex-end;
@@ -47,6 +46,9 @@ footer .sources {
 	height: 285px;
 font-weight: 300;
 font-style: normal;	
+margin-left: 77px;
+	position: relative;
+	right:63px;
 }
 
 footer img {
