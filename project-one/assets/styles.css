@@ -36,6 +36,11 @@ font-style: normal;
 		
 }
 
+.section-sample {
+	width: 605px;
+	height: 78px;
+background-color: purple;	
+}
 
 .main-copy {
 	font-family: condor, sans-serif;
@@ -48,6 +53,7 @@ font-style: normal;
 font-weight: 300;
 font-style: normal;
 	background-color: yellow;
+	
 }
 
 .large-letter-group button {
@@ -69,9 +75,11 @@ footer .author-heading{
 }
 footer .sources{
 	width: 740px;
-	height: 275px;
+	height:270px;
 		background-color: blue;
 	margin-left: 77px;
+	position: relative;
+	right:63px;
 }
 
 footer img {

@@ -42,7 +42,7 @@ body {padding: 0;
 footer {
 	display: flex;
 }
-footer .source-section {
+footer .source {
 	width: 208px;
 	height: 115px;
 	background-color: blue;
