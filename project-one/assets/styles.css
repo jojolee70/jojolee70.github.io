@@ -12,7 +12,7 @@ body {padding: 0;
 }
 
 .large-letter-group {
-	height: 400px;
+	height: 800px;
 	background-color: #ffffff;
 		width:100%;
 	display:flex;
@@ -39,9 +39,13 @@ font-style: normal;
 
 .main-copy {
 	font-family: condor, sans-serif;
-
+	font-weight: 400; 
+	font-style: normal;
+	font-size: 18px;
+	line-height: 26px;
+	margin-top: 0px;
+	margin-bottom: 10px;
 font-weight: 300;
-
 font-style: normal;
 	background-color: #ffffff;
 }
@@ -53,14 +57,22 @@ font-style: normal;
 	margin-right: 10px;
 }
 footer {
-	display: flex;
+	display: flex;	
+}
+footer .author-heading{
+	background-color: #FFC031;
+	width: 93px;
+	height: 24px;
+	margin-left: 77px;
 }
 footer .source-section {
 	width: 208px;
 	height: 115px;
+	margin-left: 77px;
 }
 
 footer img {
 	height: 94px;
 	width: 94px;
+	background-color: gray;
 }
