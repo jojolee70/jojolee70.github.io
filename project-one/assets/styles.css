@@ -1,0 +1,139 @@
+body {padding: 0;
+	margin: 0;
+	background: #ffffff;
+	
+}
+
+.container {
+	width: 615px;
+		margin-left: auto;
+		margin-right: auto;
+}
+
+.main-copy {
+	font-family: condor, sans-serif;
+	font-weight: 400; 
+	font-style: normal;
+	font-size: 10px;
+	line-height: 26px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+font-weight: 300;
+font-style: normal;
+	width:321px;
+	height:253px;
+	position: relative;
+	top:-229px;
+	
+}
+.large-letter-group {
+	height: 800px;
+		width:100%;
+	display:flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	
+}
+.large letter {
+	height: 282.651px;
+	width: 234.01px
+}
+
+
+.large-letter-group img{
+	position: absolute;
+	z-index: 99;
+	top:53.5%;
+	left:17%;
+		width: 364.01px;
+	height: 382.651px;
+	visibility: hidd
+}
+large-letter-group img visible{
+visibility: visible;
+}
+
+.large-letter-group h1{
+	font-family: condor, sans-serif;
+	font-weight: 400; 
+	font-style: normal;
+	font-size: 200px;
+	display:flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	padding: 0;
+	margin: 0:
+		
+}
+.black-box img {
+	position: relative;
+	left: -11px;
+	top:-531px;
+}
+
+.section-sample {
+	width: 154px;
+	height: 164px;
+font-family: condor, sans-serif;
+	font-weight: 400; 
+	font-style: normal;
+	font-size: 29px;
+	color: #F00808;
+	position: relative;
+	top: -362px;
+	left:280px;
+	border-style: solid;
+border-color: black;
+	border-width: 10px;
+	
+}
+
+
+.large-letter-group button {
+	width:1px;
+	height: 188px;
+	background-color: #F00808;
+	margin-right: 10px;
+	position: relative;
+	top: -22%;
+	left: -63%;
+}
+.author-heading{
+	font-family: condor, sans-serif;
+	font-size: 10px;
+	line-height: 26px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+font-weight: 300;
+font-style: normal;
+	width:321px;
+	height:253px;
+	position: relative;
+	bottom:924px;
+	left:425px;
+}
+footer {
+	display: flex;
+}
+footer .sources {
+	font-family: condor, sans-serif;
+	font-size: 10px;
+	line-height: 26px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+font-weight: 300;
+font-style: normal;
+	width: 700px;
+	height: 285px;
+font-weight: 300;
+font-style: normal;	
+margin-left: 77px;
+	position: relative;
+	right:63px;
+}
+
+footer img {
+	height: 94px;
+	width: 94px;
+	
+}
