@@ -76,7 +76,10 @@ border-color: black;
 	
 }
 
-
+/*
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="assets/toggle.jquery.js"></script>
+*/
 #clickme{
 	position:relative;
 	left: 180px;
