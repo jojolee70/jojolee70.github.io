@@ -45,7 +45,7 @@ body
 		
 }
 
-.large-letter-group img{
+#letter-analysis{
 	position: absolute;
 	z-index: 99;
 	top:-68px;
@@ -55,7 +55,7 @@ body
 	visibility: hidden;
 }
 
-large-letter-group img visible{
+#letter-analysis visible{
 visibility: visible;
 }
 
@@ -83,6 +83,7 @@ border-color: black;
 	background-color: #f00808;
 	height: 240px;
 	width: 5px;
+	text-shadow: 5px 5px grey;
 }
 
 /*
