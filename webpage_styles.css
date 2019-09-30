@@ -1,1 +1,41 @@
-<link rel="stylesheet" href="https://use.typekit.net/onf3hbf.css">
+body 
+{
+/*
+	padding: 0;
+	margin: 0;
+*/
+	background: #ffffff;
+	position: relative;
+	
+	
+	
+}
+
+.container {
+	width: 615px;
+		margin-left: auto;
+		margin-right: auto;
+	position: relative;
+	color: dimgrey;
+	font-family: macho, sans-serif;
+font-weight: 400;
+font-style: normal;
+	display: block;
+	text-align: center;
+	
+}
+
+#name h1{
+	padding-bottom: 20px;
+	padding-left: 40px;
+/*	align-content: center;*/
+/*	font-kerning:*/
+	font-size: 110px;
+	font-family: blenny, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+	color:deeppink;
+	
+	
+
+
