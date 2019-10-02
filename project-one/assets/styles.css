@@ -85,16 +85,29 @@ border-color: black;
 */
 #clickme{
 	position:relative;
-	left: 180px;
+	left: 13%;
+    top: -49px;
 	background-color: #f00808;
-	height: 240px;
-	width: 35px;
+	height: 20px;
+/*
+	width: 5px;
 	box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-	font-family: condor, sans-serif;
-	font-weight: 400; 
-	font-style: normal;
-	font-size: 12px;
-	color: white;
+*/
+	display: inline-block;
+  padding: 15px 25px;
+cursor: pointer;
+outline: none;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 5px #999;
+}
+
+.button:hover {background-color: #f00808}
+
+.button:active {
+  background-color: #f00808;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 /*
@@ -147,7 +160,7 @@ border-right: #000000 solid 5px;
 .red-box{
 	position: absolute;
 	top: -15px;
-	left: 47%;
+	left: 45%;
 /*bottom: 25px;
 	left: 620px;
 */background-color: #F00808;
@@ -213,7 +226,8 @@ font-style: normal;
 font-weight: 300;
 font-style: normal;	
 	text-align: left;
-	margin-left: auto;}
+	margin-left: auto;
+}
 	
 a:visited {
 color: #999999;
@@ -222,6 +236,8 @@ color: #999999;
 
 .sources h3{
 	position: relative;
+	osition: relative;
+    left: -24px;
 	text-align: left;
 	font-size: 16px;
 	color: #f00808;
