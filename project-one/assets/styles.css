@@ -188,6 +188,7 @@ font-weight: 300;
 font-style: normal;
 	height:253px;
 	padding-left:20px;
+	padding-bottom: 20px;
 	width: 50%;
 	box-sizing: border-box;
 }
@@ -200,14 +201,14 @@ footer {
 
 
 footer .sources {
-		font-family: din-2014-narrow, sans-serif;
+		font-family: condor, sans-serif;
 font-weight: 400;
 font-style: normal;
 	font-size: 10px;
 	line-height: 26px;
 	margin-top: 0px;
 	margin-bottom: 10px;
-	width: 600px;
+	width: 50%	;
 	height: 285px;
 font-weight: 300;
 font-style: normal;	
@@ -219,7 +220,12 @@ color: #999999;
 }
 
 
-.sources h3{}
+.sources h3{
+	position: relative;
+	text-align: left;
+	font-size: 16px;
+	color: #f00808;
+}
 
 /*
 footer img {
