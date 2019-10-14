@@ -1,0 +1,39 @@
+body 
+{
+background:lightblue;
+/*height:767px;*/
+}
+
+#start-options{
+height:767px;
+/*	width: 1280px;*/
+	background-color: hotpink;
+}
+.start-options.h1{
+	font-family: 'Baloo Bhaijaan', cursive;
+}
+#one-button{
+	background-color: darkgoldenrod;
+	height: 30px;
+	width: 105px;
+	position: relative;
+}
+
+#two-button{
+	background-color: darkgoldenrod;
+	height: 30px;
+	width: 105px;
+	position: relative;
+}
+#color-palette{
+height:767px;
+/*	width: 1280px;*/
+	background-color: red;
+}
+#mix{
+height:767px;
+/*	width: 1280px;*/
+	background-color: gold;	
+	shape-inside: rectangle;
+	color: black;
+}
