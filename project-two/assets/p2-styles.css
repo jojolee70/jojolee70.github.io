@@ -1,39 +1,119 @@
+
 body 
 {
-background:lightblue;
+background:#3462bf;
+/*	text-align: center;*/
 /*height:767px;*/
+}
+
+#title{
+/*
+height:102px;
+	width: 1280px;
+*/
+color: white;
 }
 
 #start-options{
 height:767px;
-/*	width: 1280px;*/
-	background-color: hotpink;
+	width: 1280px;
+	background-color:#308ad9;
+	color: white;
 }
+*/
 .start-options.h1{
 	font-family: 'Baloo Bhaijaan', cursive;
 }
+
 #one-button{
-	background-color: darkgoldenrod;
+	background-color: #f2b705;
+	height: 30px;
+	width: 105px;
+	position: relative;
+	left: 383px;
+	padding: 10px;
+}
+
+#two-button{
+	background-color: #f2b705;
+	height: 30px;
+	width: 105px;
+	position: relative;
+}
+#home-button{
+	background-color:#f2b705;
 	height: 30px;
 	width: 105px;
 	position: relative;
 }
 
-#two-button{
-	background-color: darkgoldenrod;
+#color-palette{
+height:767px;
+	width: 1280px;
+	background-color: #f20505;
+}
+
+#mix{
+height:767px;
+	width: 1280px;
+	background-color: #308ad9;	
+	shape-inside: rectangle;
+	color: black;
+}
+#a-button{
+	background-color:#f2b705;
 	height: 30px;
 	width: 105px;
 	position: relative;
 }
-#color-palette{
-height:767px;
-/*	width: 1280px;*/
-	background-color: red;
+#b-button{
+	background-color:#f2b705;
+	height: 30px;
+	width: 105px;
+	
+	position: relative;
 }
-#mix{
+#c-button{
+	background-color:#f2b705;
+	height: 30px;
+	width: 105px;
+	position: relative;
+}
+
+#contrast{
 height:767px;
-/*	width: 1280px;*/
-	background-color: gold;	
+	width: 1280px;
+	background-color: #63b405;	
 	shape-inside: rectangle;
 	color: black;
+}
+#gradient{
+height:767px;
+	width: 1280px;
+	background-color: #63b405;	
+	shape-inside: rectangle;
+	color: black;
+}
+#ratio{
+height:767px;
+	width: 1280px;
+	background-color: #63b405;	
+	shape-inside: rectangle;
+	color: black;
+}
+#reveal-button {
+	height: 5em;
+	width:5em;
+	background-color: #fff;
+	
+}
+
+.invisible {
+	visibility: hidden;
+}
+.notre-content p {
+    font-family:fantasy;
+    font-size:2em;
+    color: #382b9d;
+    padding-left:4vw;
 }
