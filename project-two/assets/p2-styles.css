@@ -39,6 +39,20 @@ height:102px;
 	text-align: center;
 	text-shadow: 8px 0px yellow;
 }
+.circle {
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+}
+#blue-circle {
+	background-color: blue;
+	position: absolute;
+}
+#white-palette{
+	width: 362px;
+    position: absolute;
+    left: 31%;
+}
 
 #start-options,
 #color-palette,
@@ -64,6 +78,7 @@ height:102px;
 
 #color-palette {
 	background-color: #f20505;
+	position: relative;
 }
 
 
