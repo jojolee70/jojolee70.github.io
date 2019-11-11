@@ -38,6 +38,7 @@ height:102px;
 	margin: 0;
 	text-align: center;
 	text-shadow: 8px 0px yellow;
+
 }
 
 .circle {
@@ -150,27 +151,17 @@ p {
 	position: relative;
 }
 
-#a-button {
+#a-button, 
+#b-button,
+#c-button{
+	margin-bottom: 40px;
 	background-color: #f2b705;
 	height: 30px;
 	width: 105px;
 	position: relative;
 }
 
-#b-button {
-	background-color: #f2b705;
-	height: 30px;
-	width: 105px;
 
-	position: relative;
-}
-
-#c-button {
-	background-color: #f2b705;
-	height: 30px;
-	width: 105px;
-	position: relative;
-}
 
 
 #reveal-button {
@@ -221,3 +212,7 @@ img.paint-splat{
 	z-index: 10;
 }
 
+p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
