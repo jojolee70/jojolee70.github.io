@@ -26,7 +26,8 @@
 			<div class="section-content">
 				<h1>The Most Fun Way to Learn Color Theory</h1>
 				<h2>Illustrations, Demonstrations, and more</h2>
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+					aliquip ex ea commodo consequat.
 				</p>
 				<button id="one-button">Lets Create</button>
 				<button id="two-button">Learn</button>
@@ -45,23 +46,23 @@
 				</div>
 				<div class="blue-opt2 invisible">
 
-					<div class="circle" id="red-purple">
+					<div class="circle" id="blue-red">
 					</div>
-					<div class="circle" id="yellow-green">
+					<div class="circle" id="blue-yellow">
 					</div>
 				</div>
 				<div class="red-opt2 invisible">
 
-					<div class="circle" id="blue-purple">
+					<div class="circle" id="red-blue">
 					</div>
-					<div class="circle" id="yellow-orange">
+					<div class="circle" id="red-yellow">
 					</div>
 				</div>
 				<div class="yellow-opt2 invisible">
 
-					<div class="circle" id="red-orange">
+					<div class="circle" id="yellow-red">
 					</div>
-					<div class="circle" id="blue-green">
+					<div class="circle" id="yellow-blue">
 					</div>
 				</div>
 				<img id="easel" src="assets/images/easel.svg" alt="image easel">
@@ -77,6 +78,21 @@
 			</div>
 		</section>
 		<section id="mix" class="color-example">
+			<div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="#">About</a>
+				<a href="#">Services</a>
+				<a href="#">Clients</a>
+				<a href="#">Contact</a>
+			</div>
+
+			<!-- Use any element to open the sidenav -->
+			<span onclick="openNav()">open</span>
+
+			<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+			<div id="main">
+				...
+			</div>
 			<div class="section-content">
 				<button id="home-button">Home</button>
 				<h1>Learn About Color Mixing!</h1>
@@ -85,7 +101,8 @@
 				<button id="b-button">Gradient</button>
 				<button id="c-button">Ratio</button>
 				<p>Gradient:gradual transition from one colour hue to another, or from one shade to another.</p>
-				<p>Color Ratio:A property of a digital display system defined as the ratio of the luminance of the brightest color (white) to that of the darkest color (black) that the system is capable of producing. A high contrast ratio is a desired aspect of any display</p>
+				<p>Color Ratio:A property of a digital display system defined as the ratio of the luminance of the brightest color (white) to that of the darkest color (black) that the system is capable of producing. A high contrast ratio is a desired aspect
+					of any display</p>
 				<p>Color Contrast — The difference in luminance between two adjacent colors or overlaid colors (foreground / background)</p>
 			</div>
 		</section>
@@ -104,12 +121,15 @@
 			<h3></h3>
 		</section>
 		<section id="ratio"><button id="home-button">Home</button>
-			<h1>Ratio</h1>
+			<h1>Ratio</h1>z
 			<h2></h2>
 			<h3></h3>
 		</section>
 -->
 	</div>
 
-	<script src="assets/fadein-out.jquery.js"></script>
-</body></html>
+	<script src="assets/new-fadein-out.jquery.js"></script>
+	<script src="assets/drawer.js"></script>
+</body>
+
+</html>
