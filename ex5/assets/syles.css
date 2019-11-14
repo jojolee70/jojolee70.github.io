@@ -1,0 +1,41 @@
+body 
+{
+/*	padding: 0;*/
+	margin: 0;
+	background:#000;
+	
+}
+
+.container {
+	width: 615px;
+		margin-left: auto;
+		margin-right: auto;
+	position: relative;
+	background-color: white;
+}
+
+
+
+footer {
+	display: flex;
+}
+
+
+
+img {
+	width:50%;
+}
+
+
+
+.sources{
+	
+}
+
+/*
+footer img {
+	height: 94px;
+	width: 94px;
+	
+*/
+/*}*/
