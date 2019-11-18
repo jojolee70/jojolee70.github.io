@@ -45,35 +45,36 @@ height:102px;
 	width: 100px;
 	height: 100px;
 	border-radius: 50%;
-		position: absolute;
+	position: absolute;
 }
 
-.circle:hover{
+.circle:hover {
 	opacity: .5;
 	cursor: pointer;
 }
 
 #blue-circle,
-#blue-purple, 
-#blue-green {
+#red-blue,
+#yellow-blue {
 	background-color: blue;
 	left: 34%;
 	top: 23%;
 }
 
 #red-circle,
-#red-purple,
-#red-orange {
+#blue-red,
+#yellow-red  {
 	background-color: red;
-    left: 46%;
-    top: 17%;
+	left: 46%;
+	top: 17%;
 }
-#yellow-circle, 
-#yellow-green,
-#yellow-orange {
+
+#yellow-circle,
+#blue-yellow,
+#red-yellow  {
 	background-color: yellow;
-      left: 54%;
-    top: 30%;
+	left: 54%;
+	top: 30%;
 }
 
 #white-palette {
@@ -107,7 +108,7 @@ height:102px;
 #color-palette {
 	background-color: #f20505;
 	position: relative;
-	
+
 }
 
 
@@ -144,16 +145,16 @@ p {
 	position: relative;
 }
 
-#home-button {
+.home-button {
 	background-color: #f2b705;
 	height: 30px;
 	width: 105px;
 	position: relative;
 }
 
-#a-button, 
+#a-button,
 #b-button,
-#c-button{
+#c-button {
 	margin-bottom: 40px;
 	background-color: #f2b705;
 	height: 30px;
@@ -177,16 +178,17 @@ p {
 .invisible {
 	display: none;
 }
+
 .active {
 	opacity: .5;
 }
 
 #easel {
-	    width: 156px;
+	width: 156px;
 }
 
 
-img.paint-splat{
+img.paint-splat {
 	width: 50px;
 	position: absolute;
 }
@@ -196,11 +198,12 @@ img.paint-splat{
 #greenpaint,
 #orangepaint,
 #purplepaint,
-#yellowpaint{
+#yellowpaint {
 	top: 127px;
-    left: 150px;
+	left: 150px;
 }
-#redpaint, 
+
+#redpaint,
 #yellowpaint,
 #bluepaint {
 	z-index: 9;
@@ -208,7 +211,7 @@ img.paint-splat{
 
 #greenpaint,
 #orangepaint,
-#purplepaint{
+#purplepaint {
 	z-index: 10;
 }
 
@@ -216,46 +219,34 @@ p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 }
-/* The side navigation menu */
-.sidenav {
-  height: 100%; /* 100% Full-height */
-  width: 250px; /* 0 width - change this with JavaScript */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
-  left: 0;
-  background-color: #111; /* Black*/
-  overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 60px; /* Place content 60px from the top */
-  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-}
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Position and style the close button (top right corner) */
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+.modal {
+	height: 300px;
+	width: 300px;
+	background: orange;
+/*	padding: 30%;*/
+	position: fixed;
+	top:50%;
+		left:50%;
+	z-index: 6;
 }
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
-  transition: margin-left .5s;
-  padding: 20px;
+	transition: margin-left .5s;
+	padding: 20px;
+}
+
+.visible {
+	visibility: visible;
+}
+
+.grey_background {
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba(0, 0, 0, .8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 5;
 }

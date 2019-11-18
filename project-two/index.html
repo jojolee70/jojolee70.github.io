@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="https://use.typekit.net/qex2znr.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="assets/jquery.scrollTo.min.js"></script>
 </head>
 
 <body>
@@ -35,7 +36,7 @@
 		</section>
 		<section id="color-palette">
 			<div class="section-content">
-				<button id="home-button">Home</button>
+				<button class="home-button">Home</button>
 				<h1>Choose 2 Colors to Start!</h1>
 				<img id="white-palette" src="assets/primary-palette.svg" alt="interactive img of primary palette">
 				<div class="circle" id="blue-circle">
@@ -81,7 +82,7 @@
 
 			<div class="section-content">
 
-				<button id="home-button">Home</button>
+				<button class="home-button">Home</button>
 
 				<h1>Learn About Color Mixing!</h1>
 				<h2>Color Vocabulary</h2>
@@ -90,19 +91,24 @@
 				<button id="b-button">Gradient</button>
 				<button id="c-button">Ratio</button>
 
-				<div class="contrast_modalcontent">
+				<div class="contrast_modalcontent modal invisible">
 					<p>Color Contrast — The difference in luminance between two adjacent colors or overlaid colors (foreground / background)</p>
-				</div>
-				
-				<div class="gradient_modalcontent">
-					<p>Gradient:gradual transition from one colour hue to another, or from one shade to another.</p>
-				</div>
-				
-				<div class="ratio_modalcontent">
-					<p>Color Ratio:A property of a digital display system defined as the ratio of the luminance of the brightest color (white) to that of the darkest color (black) that the system is capable of producing. A high contrast ratio is a desired aspect
-						of any display</p>
+					<div id="contrast-close">x</div>
 				</div>
 
+				<div class="gradient_modalcontent modal invisible">
+					<p>Gradient:gradual transition from one colour hue to another, or from one shade to another.</p>
+					<div id="gradient-close">x</div>
+				</div>
+
+				<div class="ratio_modalcontent modal invisible">
+					<p>Color Ratio:A property of a digital display system defined as the ratio of the luminance of the brightest color (white) to that of the darkest color (black) that the system is capable of producing. A high contrast ratio is a desired aspect
+						of any display</p>
+					<div id="ratio-close">x</div>
+				</div>
+				<div class="grey_background invisible">
+					
+				</div>
 			</div>
 		</section>
 
@@ -128,7 +134,8 @@
 	</div>
 
 	<script src="assets/new-fadein-out.jquery.js"></script>
-	<!--	<script src="assets/drawer.js"></script>-->
+	<script src="assets/modal.js"></script>
+	<script src="assets/scrollTo.custom2.js"></script>
 </body>
 
 </html>
