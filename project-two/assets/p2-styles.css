@@ -263,6 +263,11 @@ width: 250px;
 	
 }
 
+#ratio-squares {
+	width: 250px;
+	
+}
+/*
 .square {
 	width: 100px;
 	height: 100px;
@@ -294,6 +299,7 @@ width: 250px;
 	color: #800000;
 	padding: 20px;
 }
+*/
 
 .visible {
 	visibility: visible;
