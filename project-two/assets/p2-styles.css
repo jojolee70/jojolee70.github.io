@@ -243,6 +243,7 @@ img.paint-splat {
 }
 
 
+/*
 #rectangle-gradient {
 	background: linear-gradient(to right, #f20505 0%, #fff 100%);
 	z-index: 7;
@@ -251,9 +252,15 @@ img.paint-splat {
 	position: relative;
 	left: 25%;
 }
+*/
+
+#red-gradient {
+width: 250px;	
+}
 
 #contrast-chart {
 	width: 250px;
+	
 }
 
 .square {
