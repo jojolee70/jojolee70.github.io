@@ -236,10 +236,10 @@ img.paint-splat {
 	background: #f2b705;
 	padding: 3%;
 	position: fixed;
-	top: 60%;
-	left: 27%;
+	top: 1%;
+    left: 27%;
 	z-index: 6;
-	margin: 100px;
+/*	margin: 100px;*/
 }
 
 
