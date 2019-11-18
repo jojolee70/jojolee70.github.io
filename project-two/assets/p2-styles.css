@@ -231,14 +231,13 @@ img.paint-splat {
 
 .modal {
 	color: black;
-	height: 80%;
+	height: 60%;
 	width: 50%;
 	background: #f2b705;
-	/*	padding: 30%;*/
+	padding: 3%;
 	position: fixed;
-
 	top: 60%;
-		left: 27%;
+	left: 27%;
 	z-index: 6;
 	margin: 100px;
 }
@@ -262,7 +261,7 @@ img.paint-splat {
 	height: 100px;
 	position: absolute;
 	z-index: 17px;
-		display: flex;
+	display: flex;
 	margin-left: 100px;
 }
 
