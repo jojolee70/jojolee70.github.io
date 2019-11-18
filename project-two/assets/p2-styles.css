@@ -63,7 +63,7 @@ height:102px;
 
 #red-circle,
 #blue-red,
-#yellow-red  {
+#yellow-red {
 	background-color: red;
 	left: 46%;
 	top: 17%;
@@ -71,7 +71,7 @@ height:102px;
 
 #yellow-circle,
 #blue-yellow,
-#red-yellow  {
+#red-yellow {
 	background-color: yellow;
 	left: 54%;
 	top: 30%;
@@ -100,6 +100,8 @@ height:102px;
 	color: black;
 }
 
+
+
 #start-options,
 #mix {
 	background-color: #308ad9;
@@ -120,13 +122,23 @@ h1 {
 }
 
 h2 {
+	font-family: roboto, sans-serif;
+
+	font-weight: 300;
+
+	font-style: normal;
 	margin-bottom: 10px;
 }
 
 p {
 	margin-bottom: 40px;
 	font-size: 1.17em;
-	font-weight: 900;
+
+	font-family: lato, sans-serif;
+
+	font-weight: 400;
+
+	font-style: normal;
 }
 
 #one-button {
@@ -215,25 +227,65 @@ img.paint-splat {
 	z-index: 10;
 }
 
-p {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-}
+
 
 .modal {
-	height: 300px;
-	width: 300px;
-	background: orange;
-/*	padding: 30%;*/
+	color: black;
+	height: 80%;
+	width: 50%;
+	background: #f2b705;
+	/*	padding: 30%;*/
 	position: fixed;
-	top:50%;
-		left:50%;
+
+	top: 60%;
+		left: 27%;
 	z-index: 6;
+	margin: 100px;
 }
 
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-	transition: margin-left .5s;
+
+#rectangle-gradient {
+	background: linear-gradient(to right, #f20505 0%, #fff 100%);
+	z-index: 7;
+	width: 230px;
+	height: 100px;
+	position: relative;
+	left: 25%;
+}
+
+#contrast-chart {
+	width: 250px;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	z-index: 17px;
+		display: flex;
+	margin-left: 100px;
+}
+
+#square.dark {
+	color: #ff0000;
+	position: absolute;
+	top: auto;
+	left: 50px;
+	padding: 20px;
+}
+
+#med {
+	color: #ff8080;
+	position: absolute;
+	top: auto;
+	left: 100px;
+	padding: 20px;
+}
+
+#light {
+	top: auto;
+	left: 100px;
+	color: #800000;
 	padding: 20px;
 }
 

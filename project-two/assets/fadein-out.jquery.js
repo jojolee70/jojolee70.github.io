@@ -17,7 +17,7 @@ $(document).ready(function() {
 
 
 
-	  $('#red-circle').click(function() {
+  $('#red-circle').click(function() {
     //ID or Class name of the modal you want to appear on click goes into this second area.
     $("#redpaint").toggleClass("invisible");
     $(".red-opt2").toggleClass("invisible");
@@ -33,8 +33,8 @@ $(document).ready(function() {
     // $("#bluepaint").addClass("invisible");
 
   });
-	
- $('#yellow-circle').click(function() {
+
+  $('#yellow-circle').click(function() {
     //ID or Class name of the modal you want to appear on click goes into this second area.
     $("#yellowpaint").toggleClass("invisible");
     $(".yellow-opt2").toggleClass("invisible");
@@ -49,10 +49,9 @@ $(document).ready(function() {
     $("#orangepaint").addClass("invisible");
     // $("#purplepaint").addClass("invisible");
     // $("#bluepaint").addClass("invisible");
-	 
   });
-	
-	 // the two colors that are turned on when the user clicks the BLUE circle as soon as they arrive on the site
+
+  // the two colors that are turned on when the user clicks the BLUE circle as soon as they arrive on the site
   $('#blue-red').click(function() {
     $("#purplepaint").removeClass("invisible");
     $("#blue-red").addClass("active");
