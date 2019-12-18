@@ -1,0 +1,441 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 378px;
+}
+
+h1,
+h2 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 27px;
+    color: #414141;
+    margin-bottom: 7px;
+}
+
+h3 {
+    font-family: minion-3, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    color: #414141;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    color: #414141;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+p {
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16.5px;
+    margin: 0 auto;
+    color: #707070;
+    margin-bottom: 17px;
+    line-height: 27px;
+}
+
+#byline {
+    font-family: minion-3, serif;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    color: #414141;
+}
+
+.section-header {
+    width: 100%;
+}
+
+.section-header-image {
+    margin-bottom: -15px;
+}
+
+.wood {
+    visibility: hidden;
+    margin: -190px;
+}
+
+.content {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.videos {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+iframe {
+    width: 100%;
+    height: 215px;
+    margin-top: -15px;
+    margin-bottom: -15px;
+
+}
+
+.podcast {
+    width: 100%;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+
+video {
+    margin-bottom: 45px;
+}
+
+h5 {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+h6 {
+    font-family: minion-3, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 20px;
+
+}
+
+#podcast-author {
+    font-size: 16px;
+}
+
+#chip-quote {
+    font-style: italic;
+    font-weight:600;
+    color: #414141;
+    
+}
+
+
+blockquote {
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 27px;
+    color: #414141;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.polaroids-2 {
+    display: flex;
+}
+
+
+.polaroid-desktop {
+    display: none;
+}
+
+
+
+/* Polaroid Settings Two Next to Each Other */
+#polaroid-section-1-1,
+#polaroid-section-1-2,
+#polaroid-section-4-1,
+#polaroid-section-4-2 {
+    width: 170px;
+    margin: 0 auto;
+    margin-top: -5px;
+}
+
+/* Polaroid Settings One on Own */
+#polaroid-section-2-1,
+#polaroid-section-2-2,
+#polaroid-section-3-1,
+#polaroid-section-3-2,
+#polaroid-section-5-1,
+#polaroid-section-6-1,
+#polaroid-section-6-2,
+#polaroid-section-7-1,
+#polaroid-section-7-2 {
+    width: 170px;
+    margin: 0 auto;
+    margin-top: -5px;
+    margin-left:100px
+}
+
+@media only screen and (min-width:600px) and (max-width:960px) {
+
+    h1,
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        margin-bottom: 40px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .title-article {
+        width: 409px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+
+    .section-header-image {
+        width: 100%;
+    }
+
+    .wood {
+        visibility: visible;
+        width: 100%;
+        margin: 0;
+    }
+
+    #top-wood {
+        margin-top: -10px;
+    }
+
+    .content {
+        width: 499px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    blockquote {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 285px;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+
+
+    .polaroids-2 {
+        display: inline;
+    }
+
+    #polaroid-section-1-1,
+    #polaroid-section-1-2,
+    #polaroid-section-4-1,
+    #polaroid-section-4-2,
+    #polaroid-section-2-1,
+    #polaroid-section-2-2,
+    #polaroid-section-3-1,
+    #polaroid-section-3-2,
+    #polaroid-section-5-1,
+    #polaroid-section-6-1,
+    #polaroid-section-6-2,
+    #polaroid-section-7-1,
+    #polaroid-section-7-2 {
+        width: 200px;
+        margin-top: -5px;
+
+    }
+
+    #polaroid-section-2-1,
+    #polaroid-section-2-2,
+    #polaroid-section-3-1,
+    #polaroid-section-3-2,
+    #polaroid-section-5-1,
+    #polaroid-section-6-1,
+    #polaroid-section-6-2,
+    #polaroid-section-7-1,
+    #polaroid-section-7-2 {
+
+        margin-left: 140px;
+    }
+    
+    #polaroid-section-1-1,
+    #polaroid-section-4-1{
+        margin-left: 40px;
+    }
+
+}
+
+@media only screen and (min-width:960px) {
+
+
+    h1,
+    h2 {
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        margin-bottom: 40px;
+    }
+
+    .container {
+        width: 100%;
+        position: relative;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .title-article {
+        position: absolute;
+        top: 65px;
+        right: 7%;
+        width: 400px;
+    }
+
+
+    .wood {
+        visibility: visible;
+        width: 100%;
+        margin: 0;
+    }
+
+    .jordan .polaroids-2 {
+        display: none;
+    }
+
+    .jordan .polaroids-1 {
+        display: none;
+    }
+
+    .polaroid-desktop {
+        display: inline;
+    }
+
+    #top-wood {
+        margin-bottom: -20px;
+        margin-top: -40px;
+    }
+
+    .content {
+        width: 862px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 70px;
+    }
+
+    blockquote {
+        font-size: 35px;
+        line-height: 50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 485px;
+        margin-top: -5px;
+        margin-bottom: -5px;
+    }
+
+
+
+    .sidebyside {
+        display: flex;
+    }
+
+
+    .ghost {
+        width: 1400px;
+    }
+
+
+    .polaroids-2 {
+        display: inline;
+    }
+
+    #polaroid-section-1-1,
+    #polaroid-section-1-2,
+    #polaroid-section-4-1,
+    #polaroid-section-4-2,
+    #polaroid-section-2-1,
+    #polaroid-section-2-2,
+    #polaroid-section-3-1,
+    #polaroid-section-3-2,
+    #polaroid-section-5-1,
+    #polaroid-section-6-1,
+    #polaroid-section-6-2,
+    #polaroid-section-7-1,
+    #polaroid-section-7-2 {
+        width: 210px;
+        margin-left: 20px;
+        transform: rotate(5deg);
+
+    }
+
+    #polaroid-section-1-2{
+        transform: rotate(-5deg);
+    }
+    
+    #polaroid-section-2-1 {
+        margin-top: 60px;
+    }
+
+    #polaroid-section-2-2 {
+        margin-top: 600px;
+        transform:  rotate(-5deg);
+    }
+
+    #polaroid-section-3-1 {
+        margin-top: 80px;
+    }
+    
+    #polaroid-section-3-2{
+        transform:  rotate(-5deg);
+    }
+
+    #polaroid-section-4-1 {
+        margin-top: 90px;
+    }
+    
+    #polaroid-section-4-2{
+        transform:  rotate(-5deg);
+    }
+
+    #polaroid-section-5-1 {
+        margin-top: 190px;
+    }
+    
+    #polaroid-section-6-2{
+        transform:  rotate(-5deg);
+    }
+
+    #polaroid-section-7-2 {
+        margin-top: -90px;
+        transform:  rotate(-5deg);
+    }
+
+
+
+
+
+
+
+
+
+
+
